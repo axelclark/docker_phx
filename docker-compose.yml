@@ -9,7 +9,7 @@ networks:
 
 services:
   app:
-    image: docker_phx:0.1.0
+    image: axelclark/docker_phx:0.1.0
     ports:
       - "80:4000"
     env_file:
